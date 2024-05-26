@@ -2,6 +2,42 @@ package mymath
 
 import "math"
 
+func Abs(x float64) float64 {
+	return math.Abs(x)
+}
+
+func Acos(x float64) float64 {
+	return math.Acos(x)
+}
+
+func Acosh(x float64) float64 {
+	return math.Acosh(x)
+}
+
+func Asin(x float64) float64 {
+	return math.Asin(x)
+}
+
+func Asinh(x float64) float64 {
+	return math.Asinh(x)
+}
+
+func Atan(x float64) float64 {
+	return math.Atan(x)
+}
+
+func Atan2(y, x float64) float64 {
+	return math.Atan2(y, x)
+}
+
+func Atanh(x float64) float64 {
+	return math.Atanh(x)
+}
+
+func Cbrt(x float64) float64 {
+	return math.Cbrt(x)
+}
+
 func Sqrt(x float64) float64 {
 	return math.Sqrt(x)
 }
@@ -10,8 +46,96 @@ func Ceil(x float64) float64 {
 	return math.Ceil(x)
 }
 
+func Copysign(f, sign float64) float64 {
+	return math.Copysign(f, sign)
+}
+
+func Cos(x float64) float64 {
+	return math.Cos(x)
+}
+
+func Cosh(x float64) float64 {
+	return math.Cosh(x)
+}
+
+func Dim(x, y float64) float64 {
+	return math.Dim(x, y)
+}
+
+func Erf(x float64) float64 {
+	return math.Erf(x)
+}
+
+func Erfc(x float64) float64 {
+	return math.Erfc(x)
+}
+
+func Erfcinv(x float64) float64 {
+	return math.Erfcinv(x)
+}
+
+func Erfinv(x float64) float64 {
+	return math.Erfinv(x)
+}
+
+func Exp(x float64) float64 {
+	return math.Exp(x)
+}
+
+func Exp2(x float64) float64 {
+	return math.Exp2(x)
+}
+
+func Expm1(x float64) float64 {
+	return math.Expm1(x)
+}
+
+func FMA(x, y, z float64) float64 {
+	return math.FMA(x, y, z)
+}
+
+func Float32bits(f float32) uint32 {
+	return math.Float32bits(f)
+}
+
+func Float32frombits(b uint32) float32 {
+	return math.Float32frombits(b)
+}
+
+func Float64bits(f float64) uint64 {
+	return math.Float64bits(f)
+}
+
+func Float64frombits(b uint64) float64 {
+	return math.Float64frombits(b)
+}
+
 func Floor(x float64) float64 {
 	return math.Floor(x)
+}
+
+func Frexp(f float64) (frac float64, exp int) {
+	return math.Frexp(f)
+}
+
+func Gamma(x float64) float64 {
+	return math.Gamma(x)
+}
+
+func Hypot(p, q float64) float64 {
+	return math.Hypot(p, q)
+}
+
+func Ilogb(x float64) int {
+	return math.Ilogb(x)
+}
+
+func Inf(sign int) float64 {
+	return math.Inf(sign)
+}
+
+func IsInf(f float64, sign int) bool {
+	return math.IsInf(f, sign)
 }
 
 func Pow(x, y float64) float64 {
@@ -28,8 +152,4 @@ func Min(x, y float64) float64 {
 
 func Yn(x int, y float64) float64 {
 	return math.Yn(x, y)
-}
-
-func Abs(x float64) float64 {
-	return math.Abs(x)
 }
